@@ -1,0 +1,20 @@
+{
+  "name": "velliq",
+  "version": "1.0.0",
+  "description": "Find wasted Google Ads spend, review what Velliq recommends, check measurement health and keep your business context current, with every number coming from Velliq.",
+  "author": {
+    "name": "Velliq",
+    "url": "https://velliq.tech"
+  },
+  "homepage": "https://velliq.tech",
+  "repository": "https://github.com/Velliq/velliq-plugin",
+  "license": "MIT",
+  "keywords": [
+    "google-ads",
+    "ppc",
+    "wasted-spend",
+    "ga4",
+    "marketing",
+    "advertising"
+  ]
+}
