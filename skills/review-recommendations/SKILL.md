@@ -32,5 +32,8 @@ description: Go through what Velliq decided for each finding, covering proposed 
   Other menu options are previews only.
 - Never say a change is approved, safe or confirmed unless Velliq says so.
 - Quote all amounts exactly as Velliq returns them. Never compute new ones.
+- An answered question is not asked again. The answers `wanted`, `serves_more` and `intended`
+  rule out every change for that finding.
+- Investigation outcomes are research only. They never confirm waste or allow a change.
 - This plugin cannot apply changes to Google Ads or start investigations. The owner does that in
   Velliq.

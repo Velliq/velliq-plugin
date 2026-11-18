@@ -34,6 +34,9 @@ description: Explain where a Google Ads account is wasting money, using Velliq's
 - Quote the ledger's main total as a **range**, never as one exact sum. `other_totals`,
   `separate_amounts` and `capacity` are separate amounts and are never added to it.
 - Signals are not confirmed waste, and an empty list does not mean the account is healthy.
+- Never add amounts across findings. Each finding's amount stands alone, and the ledger holds
+  the only totals. Query, geography and destination costs overlap, so never sum them either.
+- A historical CONFIRMED finding with no recent spend is history, not current waste.
 - Velliq never changes Google Ads. Give manual change instructions only when
   `next_step.manual_steps_allowed` is true. Otherwise describe the change as a preview to review in
   Velliq, and never imply that Velliq approved it.
